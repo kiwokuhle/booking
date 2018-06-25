@@ -1,0 +1,105 @@
+#backgroundimg{
+
+    background-image: url("assets/full.jpg") ;
+    position: relative;
+    background-size: cover;
+
+    height: 500px;
+}
+
+.container {
+    position: absolute;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    padding: 16px;
+    background-color: white;
+    margin-top: 60px;
+    left: 35%;
+    opacity: 10;
+  
+  }
+  
+  #pac-input {
+    background-color: #fff;
+    margin-left: 2%;
+    width: 290px;
+    height: 30px;
+    
+  }
+  
+  input[type=date] {
+  
+    margin-left :2%;
+    width :45%;
+    position: relative;
+    bottom: 80px;
+    margin-right: 0%;
+  
+  }
+  h5{
+    position: relative;
+    margin-left: 51%;
+    font-size: 15px;
+    bottom: 55px;
+  }
+  h4{
+    margin-left: 2%;
+    position: relative;
+    bottom: 10px;
+  }
+  #Room{
+      margin-left: 2%;
+      position: relative;
+      bottom: 60px;
+  }
+  #Rooms{
+    margin-left: -91px;
+    position: relative;
+    bottom: 30px;
+    width: 45%;
+    height: 5%;
+  }
+  #Adult{
+      margin-left: 10px;
+      position: relative;
+      top: -59px;
+  }
+  #Adults{
+    
+    
+    position: relative;
+    margin-left: 159px;
+    bottom: 55px;
+    width: 45%;
+    height: 5%;
+  
+  
+  }
+  #Children{
+    margin-left: 2%;
+    position: relative;
+    bottom: 30px;
+  
+  }
+  
+  #child{
+      position: relative;
+      margin-left: -100px;
+      bottom: 1px;
+      width: 45%;
+      height: 5%;
+      
+  
+  }
+  .submit{
+    position: relative;
+    margin-left: 165px;
+    width: 45%;
+    bottom: 29px;
+    height: 30px;
+    color: white;
+    background-color: #B784A7;
+    border: #B784A7;
+    font: bold;
+  }

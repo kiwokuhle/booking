@@ -1,0 +1,37 @@
+
+
+<div id="backgroundimg" >
+
+  <form >
+    <div class="container">
+      <input id="pac-input" type="text" onfocus="this.value=''" value="Destination / Adress" #Destination >
+
+        
+      
+      <h4>Check-In</h4> <h5>Check-Out</h5>
+      <input type="date" id="myDate" value="" placeholder="CheckIn" #Checkin>  
+        
+            <input type="date" id="Date" value="" placeholder="checkOut"   #checkout >
+
+            <label for="Room" id="Room" >No of Rooms </label>
+            <input type="number" min="1"max="50" id="Rooms" #Room >
+
+            <label for="Adults" id="Adult">No of Adults</label>
+            <input type="number" min="1" max="50" id="Adults" #Adults>  
+
+            <label for="Children" id="Children" >No of Children</label>
+            <input type="number" min="0" max="50" id="child" #Children>
+            
+
+           
+           <a routerLink="/confirmation"> <input class="submit" type="submit" value="SEARCH" 
+            (click)="Page(Destination.value,Checkin.value,checkout.value,Room.value,Adults.value,Children.value)"> </a>
+
+            
+
+    </div>
+    
+  </form>
+
+
+</div>
